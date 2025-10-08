@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bentolio HTML</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+        :root {
+            --collection-1-rounded: 24px;
+        }
+
+        .bg-collection-1-background {
+            background-color: bg-gray-100;
+            /* primer pozadine */
+        }
+
+        .bg-collection-1-primary {
+            background-color: #FADCD9;
+        }
+
+        .bg-collection-1-secondary {
+            background-color: #FADCD9;
+        }
+
+        .text-collection-1-text {
+            color: black;
+        }
+    </style>
+</head>
+
+<body class="m-0 p-0 overflow-x-hidden bg-[#F9F1F0]">
+    <div class="w-full max-w-[1440px] p-6 m-auto flex flex-col gap-6">
+
+        <!-- HEADER -->
+        <header
+            class="bg-collection-1-primary py-10 px-6 flex justify-between items-center rounded-[var(--collection-1-rounded)]">
+            <a href="/" class="">
+                <span class="">JULIA</span>
+                <span class="">HUANG</span>
+            </a>
+
+            <nav class="" aria-label="Main navigation">
+                <ul class="flex gap-12">
+                    <li><a href="#projects" class="">PROJECTS</a>
+                    </li>
+                    <li><a href="#about" class="">ABOUT</a>
+                    </li>
+                    <li><a href="#contact" class="">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="grid col-span-2 gap-6">
+                <div class="flex gap-6">
+                    <div class="grid grid-row-2 bg-collection-1-primary rounded-[var(--collection-1-rounded)] w-full pt-[34px] pr-[30px] pb-[86px] pl-[24px]">
+                        <div class="w-[119px] h-[119px] bg-[url(images/FLOWER.png)] bg-cover bg-center ml-auto"></div>
+                        <div class="font-[Lato] font-bold text-collection-1-text text-[56px] leading-[100%] tracking-[0%] mt-[72px]"><span>Artist Redefining Architecture with AI-Driven Design</span></div>
+                    </div>
+                    <div class="bg-collection-1-primary rounded-[var(--collection-1-rounded)] min-w-[330px] min-h-[476px] bg-[url(images/girl.png)] bg-cover bg-center">2</div>
+                </div>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="grid grid-row-2 bg-collection-1-primary rounded-[var(--collection-1-rounded)] pt-[32px] pr-[128px] pb-[46px] pl-[24px]">
+                        <div class="w-[38px] h-[38px] bg-[url(images/CIRCLE.png)] bg-cover bg-center mb-[75px]"></div>
+                        <div class="font-[Lato] font-light text-collection-1-text text-[20px] leading-[25px] tracking-[0%] "><span>Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.</span></div>
+                    </div>
+                    <div class="grid grid-rows-2 bg-collection-1-primary rounded-[var(--collection-1-rounded)] pr-[24px] pb-[53px] pl-[24px] pt-[30px]">
+
+                        <!-- PRVI RED: Have some questions? + strelica, zalepljen uz gornju ivicu -->
+                        <div class="flex justify-between items-start">
+                            <!-- Tekst u dva reda -->
+                        <div class="flex flex-col leading-[100%]">
+                            <span class="font-[Lato] font-light text-[15px] tracking-[0%]">Have some</span>
+                            <span class="font-[Lato] font-light text-[15px] tracking-[0%]">questions?</span>
+                        </div>
+                            <div class="w-[38px] h-[38px] flex items-center justify-center">
+                                <svg class="w-[22px] h-[22px]" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="0" y1="22" x2="22" y2="0" stroke="currentColor"/>
+                                    <polyline points="14,0 22,0 22,8" fill="none" stroke="currentColor"/>
+                                </svg>
+                            </div>
+                            
+                        </div>
+
+                        <!-- DRUGI RED: Contact me uz donju ivicu -->
+                        <div class="flex items-end h-full">
+                            <span class="font-[Lato] font-normal text-[55px] leading-[100%] tracking-[0%]">
+                            Contact me
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div class="bg-collection-1-primary rounded-[var(--collection-1-rounded)]">MUSEA</div>
+                <div class="bg-collection-1-primary rounded-[var(--collection-1-rounded)]">FOOTER</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
