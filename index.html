@@ -12,11 +12,12 @@
 
         :root {
             --collection-1-rounded: 24px;
+            --collection-2-rounded: 16px;
         }
 
         .bg-collection-1-background {
             background-color: bg-gray-100;
-            /* primer pozadine */
+          
         }
 
         .bg-collection-1-primary {
@@ -34,7 +35,7 @@
 </head>
 
     <body class="m-0 p-0 overflow-x-hidden bg-[#F9F1F0]">
-        <div class="w-full max-w-[1440px] px-6 pt-6 m-auto flex flex-col gap-6 overflow-hidden box-border">
+        <div class="w-full max-w-[1440px] px-6 pt-6  m-auto flex flex-col gap-6 overflow-hidden box-border">
 
             <!-- HEADER -->
             <header
@@ -72,18 +73,18 @@
                     <div class="grid grid-cols-2 gap-6">
                         <div class="grid bg-collection-1-primary rounded-[var(--collection-1-rounded)] pt-[32px] pr-[128px] pl-[24px] max-w-full overflow-x-hidden">
                             <div class="w-[38px] h-[38px] bg-[url(images/CIRCLE.png)] bg-cover bg-center mb-[75px]"></div>
-                            <div class="font-[Lato] font-light text-collection-1-text text-[20px] leading-[25px] tracking-[0%] pb-[46px]"><span>Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.</span></div>
+                            <div class="font-[Lato] font-light text-collection-1-text text-[20px] leading-[25px] tracking-[0%] pb-[26px]"><span>Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.</span></div>
                         </div>
                         <div class="grid grid-rows-2 bg-collection-1-primary rounded-[var(--collection-1-rounded)] pr-[24px] pb-[53px] pl-[24px] pt-[30px]">
 
                             <div class="flex justify-between items-start">
-                                <!-- Tekst u dva reda -->
+                                
                             <div class="flex flex-col leading-[100%]">
                                 <span class="font-[Lato] font-light text-[15px] tracking-[0%]">Have some</span>
                                 <span class="font-[Lato] font-light text-[15px] tracking-[0%]">questions?</span>
                             </div>
                                 <div class="w-[38px] h-[38px] flex items-center justify-center">
-                                    <img src="images/vector.png" alt="Vector icon" class="w-[22px] h-[22px]" />
+                                    <img src="images/Vector.png" alt="Vector icon" class="w-[22px] h-[22px]" />
 
                                 </div>
                             </div>
@@ -100,7 +101,7 @@
                 <div class="flex flex-col gap-6">
                     <!-- Gornji deo -->
                     <div class="bg-collection-1-primary rounded-[var(--collection-1-rounded)] pt-[34px] pr-[24px] pb-[45px] pl-[24px]">
-                    <!-- Naslov + strelica -->
+                  
                     <div class="flex justify-between items-center">
                         <span class="font-[Lato] font-medium text-[25px] tracking-[0%]">Musea</span>
                         <div class="w-[26px] h-[26px] flex items-center justify-center">
@@ -109,10 +110,8 @@
                     </div>
 
                     <!-- Slika -->
-                    <div class="w-full aspect-[399/269] bg-[url(images/chair.png)] bg-cover bg-[center_bottom] mt-[21px] mb-[30px]"></div>
+                    <div class="w-full aspect-[399/269] bg-[url(images/chair.png)] rounded-[var(--collection-2-rounded)] bg-cover bg-[center_bottom] mt-[21px] mb-[30px]"></div>
 
-
-                    <!-- Border + tekstovi -->
                     <div class="border-b-[2px] border-[#F8AFA6] w-full mb-[29px]"></div>
                     <div class="font-[Lato] font-medium text-[25px] mb-[29px]">Elara</div>
                     <div class="border-b-[2px] border-[#F8AFA6] w-full mb-[29px]"></div>
@@ -125,9 +124,9 @@
                     <!-- Donji deo -->
                     <div class="bg-collection-1-primary rounded-[var(--collection-1-rounded)] pt-[45px] pr-[57px] pb-[45px] pl-[57px]">
                         <div class="flex justify-between items-center">
-                            <a href="#" class="font-[Lato] font-medium text-[15px]">INSTAGRAM</a>
-                            <a href="#" class="font-[Lato] font-medium text-[15px]">TWITTER</a>
-                            <a href="#" class="font-[Lato] font-medium text-[15px]">LINKEDIN</a>
+                            <a href="#" class="font-[Lato] font-light text-[15px]">INSTAGRAM</a>
+                            <a href="#" class="font-[Lato] font-light text-[15px]">TWITTER</a>
+                            <a href="#" class="font-[Lato] font-light text-[15px]">LINKEDIN</a>
                         </div>
                     </div>
                 </div>
